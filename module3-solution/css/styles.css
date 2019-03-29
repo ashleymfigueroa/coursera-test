@@ -1,1 +1,100 @@
 
+body {
+	font-size: 16px;
+	color: #000000;
+	background-color: #E5E7E9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/**** HEADER ****/
+
+#header-nav {
+	background-color: #5DADE2;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid;
+	height: 50px;
+	padding: 0px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+#header-nav .container {
+	padding-left: 0px;
+	padding-right: 0px;
+}	
+
+.navbar-default .navbar-brand {
+	margin-left: 15px;
+	font-size: 1.5em;
+	font-weight: bold;
+    color: black;    
+}
+
+#collapsible-nav {
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	position: relative;
+	float: left;
+	clear: none;
+	overflow-x: hidden;
+}
+
+#nav-list {
+	margin-top: 0px;
+} 
+
+.navbar-default .navbar-nav li a {
+	margin-top: 0px;
+	text-align: center;
+	color: black;
+	background-color: #AED6F1;
+	border-bottom: 2px solid;
+}
+
+
+/**** MAIN CONTENT ****/
+
+#page-heading {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+
+#section-container.container {
+	background-color: #808080;
+	height:auto;	
+	justify-content: center;
+	padding: 15px 30px 15px 30px;
+	margin-bottom: 50px;
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#section-header {
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/**** RESPONSIVE DESIGN ****/
+
+/* Mobile Devices - xs */
+
+@media (max-width: 767px) {
+
+	#section-container.container {
+		margin-right: 30px; 
+		margin-left: 30px;
+	}	
+}
